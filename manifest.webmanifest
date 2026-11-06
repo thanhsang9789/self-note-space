@@ -1,0 +1,19 @@
+{
+  "name": "SelfNote. — Personal & Anonymous Spaces",
+  "short_name": "SelfNote",
+  "description": "Write and store personal notes on tactile paper, explore spaces, and sync across cellphone & desktop.",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#e0f2fe",
+  "theme_color": "#2445ff",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

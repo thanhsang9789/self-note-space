@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Redirecting…</title>
+  <script>
+    (function () {
+      var l = window.location;
+      var path = l.pathname || "/";
+      var match = path.match(/^(.*?)(\/(?:space|feed|write|search|outbox|letter|terms)(?:\/.*)?)$/i);
+      if (match) {
+        var base = match[1] || "";
+        var route = match[2] + (l.search || "") + (l.hash || "");
+        l.replace(l.protocol + "//" + l.host + base + "/?__route=" + encodeURIComponent(route));
+      } else {
+        var isGhProject = /\.github\.io$/i.test(l.hostname);
+        var parts = path.split("/").filter(Boolean);
+        var fallbackBase = isGhProject && parts.length > 0 ? "/" + parts[0] + "/" : "/";
+        l.replace(l.protocol + "//" + l.host + fallbackBase);
+      }
+    })();
+  </script>
+</head>
+<body></body>
+</html>
