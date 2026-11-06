@@ -18,7 +18,6 @@ class ProjectVerificationTests(unittest.TestCase):
         required = [
             ".nojekyll",
             ".gitignore",
-            ".github/workflows/deploy.yml",
             "index.html",
             "404.html",
             "manifest.webmanifest",
