@@ -1,6 +1,6 @@
-# SelfNote. — Tactile Paper Note Spaces (`unsaid.live/space` Edition)
+# SelfNote. — Tactile Paper Note Spaces
 
-A privacy-first, mobile-ready personal note sanctuary and anonymous letter-writing web app inspired by `unsaid.live/space` — built to deploy for free on **GitHub Pages** and install directly onto your **cellphone home screen**.
+A privacy-first, mobile-ready personal note sanctuary and anonymous letter-writing web app.
 
 ## ✨ Highlights
 
